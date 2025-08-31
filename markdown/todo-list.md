@@ -41,5 +41,8 @@
   A服务接口: www.example.com/auth/api/v1/xx -> nginx分发 -> www.example.com:5050/api/v1/xx
   B服务接口: www.example.com/user/api/v1/xx -> nginx分发 -> www.example.com:5051/api/v1/xx
 ```
-- [x] Ubuntu系统卸载，windows系统使用wsl安装Ubuntu系统
-- [ ] claude 安装和接入kimi K2模型
+- [x] [Ubuntu系统卸载，windows系统使用wsl安装Ubuntu系统](./others/others.md#windows-系统安装-wsl-子系统)
+- [ ] [claude 安装和接入kimi K2模型](./others/others.md#claude-安装和接入kimi-k2模型)
+  - [x] 安装claude
+  - [ ] 注册账号是需要购买额度，visa，5$
+  - [ ] 接入kimi K2模型
