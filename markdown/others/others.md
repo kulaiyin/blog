@@ -193,3 +193,42 @@ assign letter=P
 <!-- 删除P盘 -->
 remove letter=P
 ```
+
+## Windows 系统安装 wsl 子系统
+
+[如何使用 WSL 在 Windows 上安装 Linux](https://learn.microsoft.com/zh-cn/windows/wsl/install)
+[命令行安装WSL Ubuntu-24.04系统](https://blog.csdn.net/xinghaitao2005/article/details/147876348)
+
+```bash
+wsl --update
+
+# 列出所有可用的 Linux 发行版
+wsl -l -o
+
+# 安装 Ubuntu
+wsl --install -d Ubuntu-24.04 
+
+# 设置默认的 Linux 发行版
+wsl --set-default Ubuntu-24.04
+
+# 关闭wsl
+wsl --shutdown
+```
+
+### 导出镜像
+
+> 为了解决ubuntu系统文件占用系统盘内存过大的问题，将ubuntu系统导出成镜像文件，然后导入。
+
+```bash
+# 默认镜像路径
+# C:\Users\<用户名>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_<版本号>\LocalState\ext4.vhdx
+
+# 导出镜像
+wsl --export Ubuntu-24.04 D:\WSL_images\ubuntu24\ubuntu-24.04.vhdx --vhd
+# 注销Ubuntu-24.04系统
+wsl --unregister Ubuntu-24.04
+# 导入镜像
+wsl --import Ubuntu-24.04 D:\WSL_images\ubuntu24 D:\WSL_images\ubuntu24\ubuntu-24.04.vhdx --vhd
+# 设置默认的 Linux 发行版
+wsl --set-default Ubuntu-24.04
+```

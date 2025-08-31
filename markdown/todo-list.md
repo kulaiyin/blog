@@ -41,5 +41,5 @@
   A服务接口: www.example.com/auth/api/v1/xx -> nginx分发 -> www.example.com:5050/api/v1/xx
   B服务接口: www.example.com/user/api/v1/xx -> nginx分发 -> www.example.com:5051/api/v1/xx
 ```
-- [ ] Ubuntu系统卸载，windows系统使用wsl安装Ubuntu系统
+- [x] Ubuntu系统卸载，windows系统使用wsl安装Ubuntu系统
 - [ ] claude 安装和接入kimi K2模型
