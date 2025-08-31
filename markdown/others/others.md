@@ -152,3 +152,44 @@ WSL 1与Windows主机共享网络命名空间，其IP与Windows主机的局域�
 # telnet ip port
 telnet 192.168.32.89 22 # ssh服务端口
 ```
+
+## windows系统删除ubuntu系统
+
+[Win+Ubuntu双系统下删除Ubuntu系统](https://zhuanlan.zhihu.com/p/550144977)
+
+### 删除分区
+
+```cmd
+<!-- 启动diskpart -->
+diskpart
+
+<!-- 列出磁盘 -->
+list disk
+
+<!-- 列出分区 -->
+list partition
+
+<!-- 删除分区 -->
+select partition 3
+deleete partition override
+```
+
+### 删除启动项
+
+> 如果启动项存在与多个内存盘中，则需要删除多个启动项
+
+```cmd
+diskpart
+
+list disk
+
+select disk 0
+list partition
+
+<!-- 分区1挂载到P盘 -->
+select partition 1
+assign letter=P
+
+<!-- 删除P盘 -->
+remove letter=P
+```
