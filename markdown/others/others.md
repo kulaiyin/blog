@@ -274,4 +274,9 @@ npm uninstall -g @anthropic-ai/claude-code
 > 魔法上网
 
 [赔钱机场](https://xn--cp3a08l.com/#/dashboard)
-[Clash Verge下载地址](https://release-assets.githubusercontent.com/github-production-release-asset/721767116/01d8ef81-0f67-4380-9179-6c81eaaad128?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-31T20%3A26%3A37Z&rscd=attachment%3B+filename%3DClash.Verge_2.4.0_x64-setup.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-31T19%3A25%3A40Z&ske=2025-08-31T20%3A26%3A37Z&sks=b&skv=2018-11-09&sig=O74jxKypHKznqb4D7w0Jku1YHRHzEZpngdnbnY8lwtA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NjY2ODcxOCwibmJmIjoxNzU2NjY4NDE4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Aq2D9VUchq00bRVOegkk6xVmBNlhXf1DKKEjyQrT1Gs&response-content-disposition=attachment%3B%20filename%3DClash.Verge_2.4.0_x64-setup.exe&response-content-type=application%2Foctet-stream)
+
+[Clash Verge下载地址](https://clashverge.uk/install/install.html)
+
+[clash-meta-for-android](https://clash-verge.org/zh-CN/android/clash-meta-for-android)
+
+https://xn--cp3a08l.com/api/v1/client/subscribe?token=2fbb7549c9c3f22158ecf071f0d56709

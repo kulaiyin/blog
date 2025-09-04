@@ -24,6 +24,7 @@
 
 - [x] vitepress 添加本地搜索功能
 - [ ] [鸿蒙课堂学习](./mobile-app/harmonynext/courses/index.md)
+  - [x] HarmonyOS应用开发者基础认证
 
 - [ ] kuikly 框架搭建
   - [ ] h5
