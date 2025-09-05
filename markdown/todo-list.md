@@ -47,3 +47,4 @@
   - [x] 安装claude
   - [ ] 注册账号是需要购买额度，visa，5$
   - [ ] 接入kimi K2模型
+- [x] [iFlow cli](./others/others.md#iFlow-cli)

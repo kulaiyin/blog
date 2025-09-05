@@ -280,3 +280,28 @@ npm uninstall -g @anthropic-ai/claude-code
 [clash-meta-for-android](https://clash-verge.org/zh-CN/android/clash-meta-for-android)
 
 https://xn--cp3a08l.com/api/v1/client/subscribe?token=2fbb7549c9c3f22158ecf071f0d56709
+
+## iFlow-cli
+
+[iFlow-cli](https://platform.iflow.cn/cli/quickstart)
+
+> linux
+```bash
+# 一键安装脚本，会安装全部所需依赖
+bash -c "$(curl -fsSL https://gitee.com/iflow-ai/iflow-cli/raw/main/install.sh)"
+
+# 已有Node.js 22+
+npm i -g @iflow-ai/iflow-cli@latest
+```
+> windows
+```bash
+1. 访问 https://nodejs.org/zh-cn/download 下载最新的 Node.js 安装程序
+2. 运行安装程序来安装 Node.js
+3. 重启终端：CMD(Windows + r 输入cmd) 或 PowerShell
+4. 运行 `npm install -g @iflow-ai/iflow-cli@latest` 来安装 iFlow CLI
+5. 运行 `iflow` 来启动 iFlow CLI
+6. 验证安装：运行 iflow --version 确认安装成功
+
+# 使用npm镜像源
+npm install -g @iflow-ai/iflow-cli --registry=https://registry.npmmirror.com
+```
