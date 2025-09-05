@@ -265,5 +265,8 @@ export default defineConfig({
       include: ["mermaid"],
     },
     ssr: { noExternal: ["mermaid"] },
+    server: {
+      allowedHosts: isDevMode ? ["local.lenovo.com"] : [],
+    },
   },
 });
