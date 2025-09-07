@@ -23,7 +23,7 @@
 ## 2025-08-31
 
 - [x] vitepress 添加本地搜索功能
-- [ ] [鸿蒙课堂学习](./mobile-app/harmonynext/courses/index.md)
+- [ ] [鸿蒙课堂学习](./mobile-app/harmonynext/index.md)
   - [x] HarmonyOS应用开发者基础认证
 
 - [ ] kuikly 框架搭建
@@ -48,3 +48,7 @@
   - [ ] 注册账号是需要购买额度，visa，5$
   - [ ] 接入kimi K2模型
 - [x] [iFlow cli](./others/others.md#iFlow-cli)
+
+## 2025-09-07
+
+- [ ] [ELADMIN 后台管理系统](./others/others.md#ELADMIN-后台管理系统)

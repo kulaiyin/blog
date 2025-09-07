@@ -305,3 +305,9 @@ npm i -g @iflow-ai/iflow-cli@latest
 # 使用npm镜像源
 npm install -g @iflow-ai/iflow-cli --registry=https://registry.npmmirror.com
 ```
+
+## ELADMIN-后台管理系统
+
+前后端框架。
+
+[ELADMIN-后台管理系统](https://eladmin.vip/pages/010101/)

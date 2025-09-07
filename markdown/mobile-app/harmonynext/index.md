@@ -16,4 +16,8 @@ ketstore
 alias: hmy_debug
 password: 123456aA
 ```
+## 功能列表
 
+### 俄罗斯方块
+
+![俄罗斯方块](../../images/harmony/tetris.png)
