@@ -20,6 +20,7 @@ export default defineConfig({
     en: { label: "English", lang: "en-US", link: "/en/" },
   },
   themeConfig: {
+    outline: [2, 3],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
