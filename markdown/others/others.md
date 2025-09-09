@@ -1,5 +1,9 @@
 # 杂项
 
+## 图标资源
+
+[google material icons](https://fonts.google.com/icons)
+
 ## 局域网下如何ping另一台电脑
 
 [两台电脑相互之间A能ping通B ,而B 不能ping通A 2台电脑局域网的机器互联问题](https://zhuanlan.zhihu.com/p/139492390)

@@ -52,3 +52,4 @@
 ## 2025-09-07
 
 - [ ] [ELADMIN 后台管理系统](./others/others.md#ELADMIN-后台管理系统)
+- [ ] 鸿蒙app添加账号集成登录
