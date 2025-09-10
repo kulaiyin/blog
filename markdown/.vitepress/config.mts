@@ -3,6 +3,7 @@ import markdownItTaskCheckbox from "markdown-it-task-checkbox";
 import { isDevMode, loadDirMdFiles } from "./tools";
 import { MermaidPlugin, MermaidMarkdown } from "vitepress-plugin-mermaid";
 
+const BUILD_TARGET = process.env.BUILD_TARGET;
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "开发日记博客",
@@ -13,6 +14,7 @@ export default defineConfig({
   // https://vitepress.dev/zh/reference/site-config#ignoredeadlinks
   ignoreDeadLinks: isDevMode ? false : true,
 
+  base: BUILD_TARGET === "github" ? "/blog/" : undefined,
   description:
     "记录开发过程中环境配置,遇到的问题和解决方案,TodoList,Week Record等.",
   locales: {

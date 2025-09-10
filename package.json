@@ -3,6 +3,7 @@
   "scripts": {
     "docs:dev": "vitepress dev markdown --host",
     "docs:build": "vitepress build markdown",
+    "docs:build_github": "cross-env BUILD_TARGET=github vitepress build markdown",
     "docs:preview": "vitepress preview markdown",
     "leetcode:test": "vitest",
     "publish": "ts-node ./build/publish.ts"
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
+    "cross-env": "^10.0.0",
     "markdown-it-task-checkbox": "^1.0.6",
     "mermaid": "^11.10.1",
     "vitepress-plugin-mermaid": "^2.0.17",
